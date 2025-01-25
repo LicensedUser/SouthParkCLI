@@ -6,5 +6,7 @@ git-clone https://github.com/LicensedUser/SouthParkCLI
 
 cd SouthParkCLI
 
+npm install playwright
+
 # Play any Season and Episode
 node south-park s1e1
