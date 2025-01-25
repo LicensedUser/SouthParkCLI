@@ -9,5 +9,7 @@ cd SouthParkCLI
 
 npm install playwright
 
+pip install PyAutoGUI
+
 # Play any Season and Episode
 node south-park s1e2
