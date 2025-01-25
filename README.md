@@ -9,4 +9,4 @@ cd SouthParkCLI
 npm install playwright
 
 # Play any Season and Episode
-node south-park s1e1
+node south-park s1e2
