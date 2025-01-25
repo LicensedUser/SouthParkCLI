@@ -3,6 +3,7 @@ This script automates the process of navigating to a specific episode of South P
 
 # Install
 git-clone https://github.com/LicensedUser/SouthParkCLI
+
 cd SouthParkCLI
 
 # Play any Season and Episode
