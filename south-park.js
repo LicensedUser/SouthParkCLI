@@ -57,6 +57,7 @@ const episode = parseInt(seasonEpisode[2]);
     await page.waitForTimeout(500);
 
     // Run the Python script using the Python interpreter (use python3 if necessary)
+    //NEED TO press CTRL+SHIFT+] in browser window for PictureInPicture mode !!!!!!!!!! < some better soliotion needed
     try {
       const output = execSync('python3 pip.py');
       console.log('Python script output:', output.toString());
@@ -69,8 +70,8 @@ const episode = parseInt(seasonEpisode[2]);
     const title = await page.title();
     console.log('Current Page Title:', title);
 
-    //NEED TO HIDE/MINIMIZE BROWSER WINDOW !!!!!!!!!!
-    await page.setViewportSize({ width: 1, height: 1 });
+    //NEED TO HIDE/MINIMIZE BROWSER WINDOW !!!!!!!!!! < some better soliotion needed
+    //await page.setViewportSize({ width: 1, height: 1 });
 
   } catch (error) {
     console.error('An error occurred:', error.message);
